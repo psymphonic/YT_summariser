@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: youtube-summarizer
+    env: python
+    schedule: "0 9 * * 3"
+    startCommand: "python youtube-summarizer/youtube_summarizer_bot.py"
+    buildCommand: "pip install -r requirements.txt"
