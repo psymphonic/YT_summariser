@@ -1,0 +1,6 @@
+openai
+notion-client
+youtube_transcript_api
+yt-dlp
+whisper
+google-api-python-client

@@ -1,0 +1,6 @@
+services:
+  - type: cron
+    name: youtube-summarizer
+    env: python
+    schedule: "0 9 * * 3"  # Every Wednesday at 09:00 UTC
+    startCommand: "python youtube_summarizer_bot.py"
